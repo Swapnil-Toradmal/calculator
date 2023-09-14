@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <h3 id="c">Calculator By Swapnil</h3>
+</head>
+<body>
+    <div class="main">
+        <table>
+            <tr>
+                <input type="text" name="" id="input">
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="clearResult()"><b>C</b></button></td>
+                <td><button onclick="deleteChar()"><b>Del</b></button></td>
+                <td><button onclick="number('/')"><b>/</b></button></td>
+            </tr>
+            <tr>
+                <td><button onclick="number('7')"><b>7</b></button></td>
+                <td><button onclick="number('8')"><b>8</b></button></td>
+                <td><button onclick="number('9')"><b>9</b></button></td>
+                <td><button onclick="number('*')"><b>X</b></button></td>
+            </tr>
+            <tr>
+                <td><button onclick="number('4')"><b>4</b></button></td>
+                <td><button onclick="number('5')"><b>5</b></button></td>
+                <td><button onclick="number('6')"><b>6</b></button></td>
+                <td><button onclick="number('+')"><b>+</b></button></td>
+            </tr>
+            <tr>
+                <td><button onclick="number('1')"><b>1</b></button></td>
+                <td><button onclick="number('2')"><b>2</b></button></td>
+                <td><button onclick="number('3')"><b>3</b></button></td>
+                <td><button onclick="number('-')"><b>-</b></button></td>
+            </tr>
+            <tr>
+                <td><button onclick="number('%')"><b>%</b></button></td>
+                <td><button onclick="number('0')"><b>0</b></button></td>
+                <td><button onclick="number('.')"><b>.</b></button></td>
+                <td><button onclick="result()"><b>=</b></button></td>
+                
+            </tr>
+        </table>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
